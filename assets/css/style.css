@@ -83,13 +83,29 @@ p{
 
 .contenedor_parrafo_pintar{
     cursor: pointer;
+    padding: 10px;
 }
 
 .div_uno, .div_dos, .div_tres, .div_cuatro{
     min-width: 200px;
     min-height: 200px;
     margin: 15px;
+}
+
+.div_uno{
+    background-color: blue;
+}
+
+.div_dos{
     background-color: red;
+}
+
+.div_tres{
+    background-color: green;
+}
+
+.div_cuatro{
+    background-color: yellow;
 }
 
 footer{
