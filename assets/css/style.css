@@ -84,6 +84,7 @@ p{
 .contenedor_parrafo_pintar{
     cursor: pointer;
     padding: 10px;
+    color: white;
 }
 
 .div_uno, .div_dos, .div_tres, .div_cuatro{
