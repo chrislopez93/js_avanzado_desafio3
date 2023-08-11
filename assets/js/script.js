@@ -10,6 +10,7 @@
 const ele = document.getElementById("ele1");
 function pintar(color) {
   ele.style.backgroundColor = color;
+  ele.style.transition = "800ms";
 }
 pintar("green"); //función invocada por defecto al cargar sitio web
 
