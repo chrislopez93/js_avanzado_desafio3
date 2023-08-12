@@ -1,14 +1,5 @@
-// const divKey = document.getElementById('divUno');
-// divKey.addEventListener('keydown', cambiarColor);
-
-// function cambiarColor(){
-//     if(event.keydown === 'a'){
-//         divKey.style.backgroundColor = "pink";
-//     }
-
-// }
-
-const divKey = document.getElementById('divUno');
+const divKey = document.getElementById('divCambioColor');
+const nuevoDiv = document.getElementById('divNuevo');
 
 document.addEventListener('keydown', function(cambiarColor){
     if(cambiarColor.key === 'a'){
@@ -19,3 +10,29 @@ document.addEventListener('keydown', function(cambiarColor){
         divKey.style.backgroundColor = "lightblue";
     }
 })
+
+document.addEventListener('keydown', function(crearDiv){
+    if(crearDiv.key === 'q'){
+        nuevoDiv.style.height = "200px";
+        nuevoDiv.style.width = "200px";
+        nuevoDiv.style.margin = "50px";
+        nuevoDiv.style.backgroundColor = "purple"
+        nuevoDiv.style.border = "solid 1px black"
+    } 
+     else if
+        (crearDiv.key === 'w'){
+        nuevoDiv.style.height = "200px";
+        nuevoDiv.style.width = "200px";
+        nuevoDiv.style.margin = "50px";
+        nuevoDiv.style.backgroundColor = "grey"
+        nuevoDiv.style.border = "solid 1px black"
+    }
+     else if(crearDiv.key === 'e'){
+        nuevoDiv.style.height = "200px";
+        nuevoDiv.style.width = "200px";
+        nuevoDiv.style.margin = "50px";
+        nuevoDiv.style.backgroundColor = "brown"
+        nuevoDiv.style.border = "solid 1px black"
+    }
+}
+)
