@@ -1,4 +1,4 @@
-const divKey = document.getElementById('divCambioColor');
+const divKey = document.getElementById('key');
 const nuevoDiv = document.getElementById('divNuevo');
 
 document.addEventListener('keydown', function(cambiarColor){

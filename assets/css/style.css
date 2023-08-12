@@ -5,7 +5,7 @@ padding: 0
 
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 80vh;
+    min-height: 100vh;
 }
 
 header{
@@ -13,7 +13,8 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 10vh;
+    background-color: antiquewhite;
+    height: 60px;
 }
 
 .contenedor_menu{
@@ -120,8 +121,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    background-color: brown;
-    font-size: 14px;
-    height: 10vh;
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+position: absolute;
+bottom: 0;
 }
