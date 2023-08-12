@@ -109,6 +109,13 @@ p{
     background-color: yellow;
 }
 
+.div_key{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+}
+
 footer{
     display: flex;
     justify-content: center;
